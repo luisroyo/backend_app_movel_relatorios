@@ -1,0 +1,62 @@
+/* app/static/css/login.css */
+body {
+    /* Poderia ter um fundo específico para a página de login */
+    /* background-image: url('../images/login-background.jpg'); */
+    /* background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh; /* Considera a altura da navbar se ela estiver fora do body para esse flex */
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 30px 40px; /* Mais padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 420px; /* Limita a largura do container de login */
+    text-align: center; /* Centraliza o título e o link de registro */
+}
+
+.login-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Ajustes específicos para campos de formulário na página de login, se necessário */
+.login-container .form-control {
+    /* Exemplo: talvez bordas um pouco diferentes ou altura */
+    /* padding: 12px 15px; */
+}
+
+.login-container .btn-primary {
+    width: 100%; /* Botão de login ocupa toda a largura */
+    padding: 12px;
+    font-size: 1.1em;
+}
+
+.login-container .form-group {
+    text-align: left; /* Alinha labels e inputs à esquerda dentro do container centralizado */
+    margin-bottom: 20px;
+}
+
+.login-container .form-group label {
+    margin-bottom: 8px; /* Espaço entre label e input */
+}
+
+.login-container p {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.login-container p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-container p a:hover {
+    text-decoration: underline;
+}

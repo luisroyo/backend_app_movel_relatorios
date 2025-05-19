@@ -1,0 +1,13 @@
+/* Estilos base (mobile) */
+.login-container {
+    width: 90%;
+    padding: 20px;
+}
+
+/* Telas maiores */
+@media (min-width: 576px) { /* Ponto de quebra similar ao 'sm' do Bootstrap */
+    .login-container {
+        max-width: 420px;
+        padding: 30px 40px;
+    }
+}
